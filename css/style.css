@@ -1,6 +1,6 @@
 /* Enter your Styles below! */
 
-body { 
+body {
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
 	 }
@@ -34,7 +34,7 @@ header {margin-bottom: 20px;}
 /* ensures that your images stretch the width of their containers */
 img { width: 100%; }
 
-a { 
+a {
 	color: red;
 	text-decoration: none;
 	 }
@@ -49,7 +49,7 @@ a:hover { color: black; }
 }
 
 .grid div {
-	background-color: #ccc;
+	background-color: yellow;
 	padding: 20px;
 }
 
