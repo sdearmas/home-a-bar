@@ -1,14 +1,56 @@
 /* Enter your Styles below! */
 @font-face {
+  font-family:'GT-Haptik-Bold-Rot';
+  src:url(../fonts/GT-Haptik-Trial-Bold-Rotalic.otf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family:'GT-Haptik-Bold';
+  src:url(../fonts/GT-Haptik-Trial-Bold.otf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family:'GT-Haptik-Medium-Rot';
+  src:url(../fonts/GT-Haptik-Trial-Medium-Rotalic.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:'GT-Haptik-Medium';
+  src:url(../fonts/GT-Haptik-Trial-Medium.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family:'GT-Haptik-Regular-Rot';
+  src:url(../fonts/GT-Haptik-Trial-Regular-Rotalic.otf);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family:'GT-Haptik-Regular';
+  src:url(../fonts/GT-Haptik-Trial-Regular.otf);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
   font-family:'AppleGaramond-Light';
-  src:url(fonts/AppleGaramond-Light.ttf);
+  src:url(../fonts/AppleGaramond-Light.ttf);
   font-style: normal;
   font-weight: 100;
 }
 
 @font-face {
   font-family:'Arial-Narrow';
-  src:url(fonts/Arial Narrow.ttf);
+  src:url(../fonts/ArialNarrow.ttf);
   font-style: normal;
   font-weight: 100;
 }
@@ -16,18 +58,53 @@
 .home-icon {
 	width: 11%;
 	position: relative;
+	margin-left: 1.5vw;
+	margin-top: 3.5vh;
 }
 
-blockquote {
+.main-about {
 	/* margin: 20px 60px; */
   font-family: 'AppleGaramond-Light';
-	border: 1px red solid;
-	width: 80%;
-	font-size: 4.5rem;
-	margin: auto 40px;
+	/* border: 1px red solid; */
+	width: 70%;
+	font-size: 4.5vw;
+	margin: auto;
+	margin-top: 20vh;
+	line-height: 4.5vw;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'GT-Haptik-Medium';
+	font-size: 1.25vw;
+	line-height: 1.75vw;
+}
+
+.nav-list {
+	border: 3px solid black;
+	position: absolute;
+	padding: 2.25vh 1vw;
+	z-index: 9;
+	background-color: white;
+	text-align: center;
 
 }
 
+h1 .sans {
+	font-family:'Arial-Narrow';
+}
+
+h1 .underline {
+	border-bottom: 2px solid black;
+	display: inline-block;
+	line-height: .75;
+	text-shadow:
+		1px 1px white,
+		1px -1px white,
+	 -1px 1px white,
+	 -1px -1px white;
+}
 
 @media only screen and (min-width:768px) {
 
