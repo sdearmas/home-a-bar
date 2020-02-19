@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Project One - Subpage One</title>
+	<title>AALTO Lounge ~ Menu</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -13,22 +13,38 @@
 <body>
 	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
 	<header>
-		<!-- header, h1, logo etc content -->
-		<h1>Your Project Name, or whatever</h1>
+		<a href="index.html">
+			<img src="images/aalto-logo-blk.png" class="home-icon">
+		</a href>
 	</header>
-	<nav>
-		<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
-		<ul>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
+
+	<nav class="main-nav">
+		<ul class="nav-list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Location</a></li>
+			<li><a href="subpage-one">Menu</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Social</a></li>
 		</ul>
 	</nav>
-	<main>
-	<!-- Main content here -->
+
+	<main class="menu-container">
+		<div class="menu">
+			<h1 class="cocktails">COCKTAILS</h1>
+			<h1 class="classics">AALTO CLASSICS</h1>
+			<h1 class="wine">WINE</h1>
+			<h2 class="type1">RED</h2>
+			<h2 class="type2">WHITE</h2>
+			<h2 class="type3">ROSE</h2>
+			<h1 class="beer">BEER</h1>
+		</div>
 	</main>
+
 	<footer>
-		<!-- footer content here -->
+		<div class="social">
+			<a href="#"><img src="images/icon-awesome-facebook.svg" alt=""></a href>
+			<a href="#"><img src="images/icon-feather-instagram.svg" alt=""></a href>
+		</div>
 	</footer>
 	<!-- link for jquery -->
 	<script
@@ -36,6 +52,7 @@
   	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   	crossorigin="anonymous"></script>
   	<!-- link for your script file -->
+		<script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
   	<script src="js/script.js"></script>
 </body>
 </html>
