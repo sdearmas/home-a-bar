@@ -98,7 +98,8 @@
 	z-index: 9;
 	background-color: white;
 	text-align: center;
-
+	cursor: grab;
+	transform: rotate()
 }
 
 .menu-title {
@@ -161,12 +162,18 @@
 	margin-top: 1.5vw;
 }
 
+.eats {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 2vw;
+	padding-left: 2.5vw;
+}
+
 .drinks {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 2vw;
 	padding-left: 2.5vw;
-
 }
 
 .white-wine {
@@ -178,6 +185,18 @@
 }
 
 .menu .drink {
+	font-family:'Arial-Narrow';
+	font-size: 1.25vw;
+	text-transform: uppercase;
+}
+
+.menu .drink {
+	font-family:'Arial-Narrow';
+	font-size: 1.25vw;
+	text-transform: uppercase;
+}
+
+.menu .food {
 	font-family:'Arial-Narrow';
 	font-size: 1.25vw;
 	text-transform: uppercase;
