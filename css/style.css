@@ -92,21 +92,39 @@
 }
 
 .nav-list {
-	border: 3px solid black;
+	border: 2px solid black;
 	position: absolute;
-	padding: 2.25vh 1vw;
+	padding: 1.5% 1.5%;
 	z-index: 9;
 	background-color: white;
 	text-align: center;
 
 }
 
+.menu-title {
+	padding: 5vw;
+}
+
+.menu-title h1 {
+	position: absolute;
+	left: 43.5%;
+	font-family: 'GT-Haptik-Bold-Rot';
+	font-size: 2vw;
+	border: 2px solid black;
+	width: 8%;
+	text-align: center;
+	padding: 2vw;
+}
+
 .menu-container {
 	margin: auto;
 	width: 55%;
-	border: 3px solid black;
+	border: 2px solid black;
 	text-align: center;
-	padding: 3vw;
+	padding: 3vw 3vw;
+	margin-top: 8vw;
+	margin-bottom: 4vw;
+	background: white;
 }
 
 .menu {
@@ -119,29 +137,50 @@
 	line-height: 1.3vw;
 }
 
-.drinks-1 {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.drinks-2 {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
 .menu h1 {
 	text-align: center;
-	margin-top: 4vh;
+}
+
+.classic-cocktails {
+	margin-top: 3vw;
+}
+
+.wine {
+	margin-top: 3vw;
+}
+
+.beer {
+		margin-top: 3vw;
+}
+
+.menu h2 {
+	text-align: center;
+}
+
+.menu h3 {
+	margin-top: 1.5vw;
+}
+
+.drinks {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 2vw;
+	padding-left: 2.5vw;
+
+}
+
+.white-wine {
+	margin-top: 1.75vw;
+}
+
+.rose-wine {
+	margin-top: 1.75vw;
 }
 
 .menu .drink {
 	font-family:'Arial-Narrow';
 	font-size: 1.25vw;
 	text-transform: uppercase;
-}
-
-.menu h3 {
-	margin-top: 1.5vw;
 }
 
 .menu p {
@@ -163,7 +202,7 @@ h2 {
 	color: black;
 	font-family: 'GT-Haptik-Medium';
 	font-size: 1vw;
-	line-height: 1.75vw;
+	line-height: 1.25vw;
 }
 
 /* .cocktails {
@@ -176,11 +215,11 @@ footer {
 	/* width: 5%; */
 	position: fixed;
 	left: 1.5vw;
-	top: 92vh;
+	top: 93vh;
 }
 
 .social img{
-	width: 2vw;
+	width: 1.5vw;
 	padding: .75vh;
 }
 
