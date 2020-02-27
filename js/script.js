@@ -6,10 +6,14 @@ $(function() {
   for (var i=1; i <= 3; i++) {
   	var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
   	var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var d = Math.floor(Math.random() * Math.floor (360));
   	$('.nav-list').css({
   		top: y + '%',
   		left: x + '%',
+      transform: 'rotate(' + d + 'deg)'
   	});
+
+    console.log(d)
   }
 
 
