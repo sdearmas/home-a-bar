@@ -74,9 +74,17 @@
 	line-height: 4.5vw;
 }
 
-.heading .sans {
-	font-family:'Arial-Narrow';
+.main-about .underline {
+	border-bottom: .25vw solid black;
+	z-index: 1;
+	display: inline-block;
+	line-height: 85%;
+	text-shadow: inset 0 0 1px white;
+}
+.main-about .sans {
+  font-family:'Arial-Narrow';
   text-transform: uppercase;
+  font-size: 4.25vw;
 }
 
 .hours {
@@ -91,16 +99,15 @@
   line-height: 4.5vw;
 }
 
-.main-about .underline {
-	border-bottom: .25vw solid black;
-	z-index: 1;
-	display: inline-block;
-	line-height: 85%;
-	text-shadow: inset 0 0 1px white;
+.hours .sans {
+	font-family:'Arial-Narrow';
+  text-transform: uppercase;
+  font-size: 2.25vw;
 }
 
+
 .hours .underline {
-	border-bottom: .1j5vw solid black;
+	/* border-bottom: .15vw solid black; */
 	z-index: 1;
 	display: inline-block;
 	line-height: 85%;
@@ -132,7 +139,7 @@
 	z-index: 9;
 	background-color: white;
 	text-align: center;
-	cursor: e-resize;
+	cursor: grab;
 }
 
 .menu-title {
