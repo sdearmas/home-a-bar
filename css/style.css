@@ -133,7 +133,7 @@
 }
 
 .nav-list {
-	border: 3px solid black;
+	border: .2vw solid black;
 	position: absolute;
 	padding: 1.5% 1.5%;
 	z-index: 9;
@@ -152,7 +152,7 @@
 	left: 43.5%;
 	font-family: 'GT-Haptik-Bold-Rot';
 	font-size: 2vw;
-	border: 3px solid black;
+	border: .2vw solid black;
 	width: 8%;
 	text-align: center;
 	padding: 2vw;
@@ -276,9 +276,13 @@ footer {
 	top: 93vh;
 }
 
+.social a {
+  text-decoration: none;
+}
+
 .social img{
-	width: 1.5vw;
-	padding: .75vh;
+	width: 2vw;
+	padding: .5vh;
 }
 
 @media only screen and (min-width:768px) {
