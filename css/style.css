@@ -87,22 +87,48 @@
   font-size: 4.25vw;
 }
 
+.hh-about {
+	/* margin: 20px 60px; */
+  font-family: 'AppleGaramond-Light';
+	/* border: 1px red solid; */
+	width: 60%;
+	font-size: 3.5vw;
+	margin: auto;
+	margin-top: 20vh;
+  margin-bottom: 3vh;
+	line-height: 3.5vw;
+}
+
+.hh-about .underline {
+	border-bottom: .2vw solid black;
+	z-index: 1;
+	display: inline-block;
+	line-height: 85%;
+	text-shadow: inset 1px 1px 1px white;
+}
+.hh-about .sans {
+  font-family:'Arial-Narrow';
+  text-transform: uppercase;
+  font-size: 3.25vw;
+}
+
 .hours {
   /* margin: 20px 60px; */
   font-family: 'AppleGaramond-Light';
   /* border: 1px red solid; */
   width: 70%;
-  font-size: 2.5vw;
+  font-size: 2vw;
   margin: auto;
   margin-top: 5vh;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
   line-height: 4.5vw;
+  text-align: center;
 }
 
 .hours .sans {
 	font-family:'Arial-Narrow';
   text-transform: uppercase;
-  font-size: 2.25vw;
+  font-size: 1.75vw;
 }
 
 
@@ -133,7 +159,7 @@
 }
 
 .nav-list {
-	border: .2vw solid black;
+	border: .25vw solid black;
 	position: absolute;
 	padding: 1.5% 1.5%;
 	z-index: 9;
@@ -152,7 +178,7 @@
 	left: 43.5%;
 	font-family: 'GT-Haptik-Bold-Rot';
 	font-size: 2vw;
-	border: .2vw solid black;
+	border: .25vw solid black;
 	width: 8%;
 	text-align: center;
 	padding: 2vw;
@@ -161,10 +187,10 @@
 .menu-container {
 	margin: auto;
 	width: 55%;
-	border: .2vw solid black;
+	border: .25vw solid black;
 	text-align: center;
 	padding: 3vw 3vw;
-	margin-top: 8vw;
+	margin-top: 5vw;
 	margin-bottom: 4vw;
 	background: white;
 }
