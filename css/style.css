@@ -55,16 +55,28 @@
   font-weight: 100;
 }
 
+@font-face {
+  font-family:'Sometimes-Times';
+  src:url(..fonts/Sometimes-Times.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+body {
+  background: black;
+}
+
 .home-icon {
 	width: 11%;
 	position: relative;
 	margin-left: 1.5vw;
 	margin-top: 3.5vh;
+  color: white;
 }
 
 .main-about {
 	/* margin: 20px 60px; */
-  font-family: 'AppleGaramond-Light';
+  font-family: 'Sometimes-Times';
 	/* border: 1px red solid; */
 	width: 70%;
 	font-size: 4.5vw;
@@ -72,6 +84,7 @@
 	margin-top: 20vh;
   margin-bottom: 5vh;
 	line-height: 4.5vw;
+  color: white;
 }
 
 .main-about .underline {
@@ -97,10 +110,11 @@
 	margin-top: 20vh;
   margin-bottom: 3vh;
 	line-height: 3.5vw;
+  color: white;
 }
 
 .hh-about .underline {
-	border-bottom: .2vw solid black;
+	border-bottom: .2vw solid white;
 	z-index: 1;
 	display: inline-block;
 	line-height: 85%;
@@ -123,6 +137,7 @@
   margin-bottom: 10vh;
   line-height: 4.5vw;
   text-align: center;
+  color: white;
 }
 
 .hours .sans {
@@ -131,13 +146,37 @@
   font-size: 1.75vw;
 }
 
-
 .hours .underline {
-	/* border-bottom: .15vw solid black; */
+	border-bottom: .15vw solid white;
 	z-index: 1;
 	display: inline-block;
 	line-height: 85%;
 	/* text-shadow: inset 0 0 1px white; */
+}
+
+.about-about {
+	/* margin: 20px 60px; */
+  font-family: 'AppleGaramond-Light';
+	/* border: 1px red solid; */
+	width: 70%;
+	font-size: 3.5vw;
+	margin: auto;
+	margin-top: 19vh;
+  margin-bottom: 3vh;
+	line-height: 3.5vw;
+}
+
+.about-about .underline {
+	border-bottom: .2vw solid black;
+	z-index: 1;
+	display: inline-block;
+	line-height: 85%;
+	text-shadow: inset 1px 1px 1px white;
+}
+.about-about .sans {
+  font-family:'Arial-Narrow';
+  text-transform: uppercase;
+  font-size: 3.25vw;
 }
 
 .nav-list a {
@@ -146,6 +185,7 @@
 	font-family: 'GT-Haptik-Medium';
 	font-size: 1.25vw;
 	line-height: 1.75vw;
+  color: white;
 }
 
 .nav-list a:hover {
@@ -159,18 +199,20 @@
 }
 
 .nav-list {
-	border: .25vw solid black;
+	border: .25vw solid white;
 	position: absolute;
 	padding: 1.5% 1.5%;
 	z-index: 9;
 	background-color: white;
 	text-align: center;
 	cursor: grab;
+  background-color: black;
 }
 
 .menu-title {
 	padding: 5vw;
-	background: white;
+	background: black;
+  color: white;
 }
 
 .menu-title h1 {
@@ -178,21 +220,22 @@
 	left: 43.5%;
 	font-family: 'GT-Haptik-Bold-Rot';
 	font-size: 2vw;
-	border: .25vw solid black;
+	border: .25vw solid white;
 	width: 8%;
 	text-align: center;
 	padding: 2vw;
+  color: white;
 }
 
 .menu-container {
 	margin: auto;
 	width: 55%;
-	border: .25vw solid black;
+	border: .25vw solid white;
 	text-align: center;
 	padding: 3vw 3vw;
 	margin-top: 5vw;
 	margin-bottom: 4vw;
-	background: white;
+	background-color: black;
 }
 
 .menu {
@@ -203,34 +246,42 @@
 	font-size: 1.25vw;
 	text-align: left;
 	line-height: 1.3vw;
+  color: white;
 }
 
 .menu h1 {
 	text-align: center;
+  color: white;
 }
 
 .classic-cocktails {
 	margin-top: 3vw;
+  color: white;
 }
 
 .wine {
 	margin-top: 3vw;
+  color: white;
 }
 
 .beer {
 	margin-top: 3vw;
+  color: white;
 }
 
 .foods {
 	margin-top: 3vw;
+  color: white;
 }
 
 .menu h2 {
 	text-align: center;
+  color: white;
 }
 
 .menu h3 {
 	margin-top: 1.5vw;
+  color: white;
 }
 
 .eats {
@@ -300,6 +351,7 @@ footer {
 	position: fixed;
 	left: 1.5vw;
 	top: 93vh;
+  color: white;
 }
 
 .social a {
