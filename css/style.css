@@ -171,8 +171,8 @@ body {
 /*
 .heading {
   border-bottom: .15vw solid white;
-  /* margin-bottom: 5vw; */
-} */
+  margin-bottom: 5vw;
+}*/
 
  /* Header End */
 
@@ -196,35 +196,6 @@ body {
 }
 
 .nav-list {
-	border: .15vw solid white;
-  border-radius: 35%;
-	position: absolute;
-	padding: 1.5% 1.5%;
-	z-index: 9;
-	background-color: white;
-	text-align: center;
-	cursor: grab;
-  background-color: black;
-}
-
-.nav-list-menu a {
-	text-decoration: none;
-	color: black;
-	font-family: 'Sometimes-Times';
-	font-size: 2vw;
-	line-height: 2vw;
-  color: white;
-  text-align: justify;
-  text-transform: uppercase;
-  padding: 2vh;
-}
-
-.nav-list-menu a:hover {
-	color: teal;
-	text-decoration: underline;
-}
-
-.nav-list-menu {
 	border: .15vw solid white;
   border-radius: 35%;
 	position: absolute;
