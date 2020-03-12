@@ -4,30 +4,13 @@
 	<meta charset="UTF-8">
 	<title>AALTO Lounge ~ Home</title>
 	<meta name="viewport" content="width=device-width">
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
 	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
-
+<div class="main">
 	<nav class="main-nav">
 		<ul class="nav-list">
 			<li><a href="index.html">Home</a></li>
@@ -36,7 +19,7 @@
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
-	<main>
+	<main class="home">
 		<div class="heading">
 			<h1 class="main-about"><span class="underline">AALTO</span> is a neighborhood bar serving the <span class="underline">Buckman</span> community since 2000.</h1>
 		</div>
@@ -44,19 +27,19 @@
 
 	<footer>
 
-		<div class="social">
-			<a href="https://www.facebook.com/aaltolounge/"><img src="images/icon-awesome-facebook.svg" alt="facebook"></a>
-			<a href="https://www.instagram.com/aaltolounge/?hl=en"><img src="images/icon-feather-instagram.svg" alt="instagram"></a>
-		</div>
-		
 		<div class="logo">
 			<a href="index.html">
 				<img src="images/aalto-logo-white.svg" class="home-icon">
 			</a href>
 		</div>
+		<p class="address">3356 SE BELMONT STREET PORTLAND, OR, 97214 UNITED STATES</p>
+		<div class="social">
+			<a href="https://www.facebook.com/aaltolounge/"><img src="images/icon-awesome-facebook.svg" alt="facebook"></a><a href="https://www.instagram.com/aaltolounge/?hl=en"><img src="images/icon-feather-instagram.svg" alt="instagram"></a>
+
+		</div>
 
 	</footer>
-
+</div>
 	<!-- link for jquery -->
 	<script
   	src="https://code.jquery.com/jquery-3.4.1.min.js"
