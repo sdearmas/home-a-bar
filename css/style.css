@@ -76,9 +76,10 @@ body {
 }
 
 .home {
-  min-height: 85vh;
+  min-height: 86vh;
 }
 /* Header Start */
+
 
 .main-about {
   font-family: 'Sometimes-Times';
@@ -193,12 +194,36 @@ body {
 	text-decoration: underline;
 }
 
-/* .nav-list a:active {
-	font-family: 'GT-Haptik-Medium-Rot';
-	text-decoration: underline;
-} */
-
 .nav-list {
+	border: .15vw solid white;
+  border-radius: 35%;
+	position: absolute;
+	padding: 1.5% 1.5%;
+	z-index: 9;
+	background-color: white;
+	text-align: center;
+	cursor: grab;
+  background-color: black;
+}
+
+.nav-list-menu a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Sometimes-Times';
+	font-size: 2vw;
+	line-height: 2vw;
+  color: white;
+  text-align: justify;
+  text-transform: uppercase;
+  padding: 2vh;
+}
+
+.nav-list-menu a:hover {
+	color: teal;
+	text-decoration: underline;
+}
+
+.nav-list-menu {
 	border: .15vw solid white;
   border-radius: 35%;
 	position: absolute;
@@ -213,24 +238,6 @@ body {
 /* Nav End */
 
 /* Menu Start */
-
-.menu-title {
-	padding: 5vw;
-	background: black;
-  color: white;
-}
-
-.menu-title h1 {
-	position: absolute;
-	/* left: 43.5%; */
-	font-family: 'Sometimes-Times';
-	/* font-size: 4vw; */
-	/* border: .25vw solid white; */
-	/* width: 8%; */
-	text-align: left;
-	/* padding: .25vw; */
-  color: white;
-}
 
 .menu-container {
 	margin: auto;
@@ -258,7 +265,6 @@ body {
 }
 
 .menu h1 {
-	text-decoration: none;
 	color: black;
 	font-family: 'Sometimes-Times';
 	font-size: 5.5vw;
@@ -269,7 +275,6 @@ body {
 }
 
 .menu h2 {
-	text-decoration: none;
 	color: black;
 	font-family: 'Sometimes-Times';
 	font-size: 4.5vw;
@@ -314,6 +319,10 @@ body {
   /* margin-left: 1vw; */
 }
 
+.cocktails {
+	margin-top: 3vw;
+}
+
 .foods {
 	margin-top: 3vw;
   color: white;
@@ -321,7 +330,6 @@ body {
 
 .wine {
 	margin-top: 3vw;
-
 }
 
 .red-wine {
