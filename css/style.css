@@ -76,10 +76,9 @@ body {
 }
 
 .home {
-  min-height: 86vh;
+  min-height: 85vh;
 }
 /* Header Start */
-
 
 .main-about {
   font-family: 'Sometimes-Times';
@@ -124,7 +123,7 @@ body {
 	font-size: 7vw;
   padding-top: 2vh;
 	margin: auto;
-  margin-bottom: 15vh;
+  margin-bottom: 13.75vh;
 	line-height: 7vw;
   color: white;
   text-align: justify;
@@ -178,6 +177,17 @@ body {
 
 /* Nav Start */
 
+.nav-list {
+	border: .15vw solid white;
+  border-radius: 35%;
+	position: absolute;
+	padding: 1.5% 1.5%;
+	z-index: 9;
+	text-align: center;
+	cursor: grab;
+  background-color: black;
+}
+
 .nav-list a {
 	text-decoration: none;
 	color: black;
@@ -195,16 +205,32 @@ body {
 	text-decoration: underline;
 }
 
-.nav-list {
+.nav-list-menu {
 	border: .15vw solid white;
   border-radius: 35%;
 	position: absolute;
 	padding: 1.5% 1.5%;
 	z-index: 9;
-	background-color: white;
 	text-align: center;
 	cursor: grab;
   background-color: black;
+}
+
+.nav-list-menu a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Sometimes-Times';
+	font-size: 2vw;
+	line-height: 2vw;
+  color: white;
+  text-align: justify;
+  text-transform: uppercase;
+  padding: 2vh;
+}
+
+.nav-list-menu a:hover {
+	color: teal;
+	text-decoration: underline;
 }
 
 /* Nav End */
@@ -237,6 +263,7 @@ body {
 }
 
 .menu h1 {
+	text-decoration: none;
 	color: black;
 	font-family: 'Sometimes-Times';
 	font-size: 5.5vw;
@@ -247,6 +274,7 @@ body {
 }
 
 .menu h2 {
+	text-decoration: none;
 	color: black;
 	font-family: 'Sometimes-Times';
 	font-size: 4.5vw;
@@ -291,10 +319,6 @@ body {
   /* margin-left: 1vw; */
 }
 
-.cocktails {
-	margin-top: 3vw;
-}
-
 .foods {
 	margin-top: 3vw;
   color: white;
@@ -302,6 +326,7 @@ body {
 
 .wine {
 	margin-top: 3vw;
+
 }
 
 .red-wine {
